@@ -1,0 +1,330 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-color: #000000;
+}
+body{color: white;}
+li , a {
+    font-family: 'Kumbh Sans';
+    font-weight: 400px;
+    font-size: 20px; 
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+    
+}
+.pages li{
+    display: inline-block;
+    padding: 0px 40px;
+    padding-left: 100px;
+
+    
+}
+.container{
+
+text-align: center;
+
+
+
+}
+/* Foodies Welcome Here */
+.food{
+font-family: 'Italianno', cursive;
+font-style: normal;
+font-weight: 300px;
+font-size: 80px;
+color: #FF8D25;
+}
+/* FRESH & TASTY MEALS */
+.fresh{
+font-family: 'Kumbh Sans', sans-serif;
+font-style: normal;
+font-weight: 200px;
+font-size: 35px;
+}
+.lorem1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+.btnmenu{
+    background-color: white;
+    color: #FF8D25;
+    height: 45px;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer; 
+    margin-right: 10px;
+    
+}
+.btnabout{
+    background-color: #FF8D25;
+    color: white;
+    height: 45px;
+    width: 170px;
+    border-radius: 50px;
+    cursor: pointer; 
+    margin-right: 30px;
+}
+.btnmenu:hover{
+    background-color: #FF8D25;
+    color: white;
+}
+.btnabout:hover{
+    background-color: white;
+    color: #FF8D25;
+}
+.line{
+    margin-bottom: 90px;
+}
+.svg{
+    display: flex;   
+    justify-content: center;   
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.galerie{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.mini-galerie{
+    margin: 30px 50px;
+}
+
+.Italianno{
+font-family: 'Italianno', cursive;
+
+}
+
+.getapp{
+    
+   padding: 2rem;
+   padding-top: 5rem;
+   
+    background-color: black;
+    height: 192px;
+    color: white;
+    border: 1px solid;
+    margin-left: 50px;
+}
+.app{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-content: space-around;
+
+}
+hr{
+    margin-bottom: 50px
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #FF8D25;
+    color: white;
+  }
+#title{
+    margin-bottom: 50px;
+}
+/* ________________________________________________________________________________ */
+.aboutus{
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 800px;
+    padding: 30px;
+    margin-bottom: 200px;
+
+
+    
+    
+}
+#explore{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Italianno', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FF8D25;
+
+}
+#Nothing{
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Kumbh Sans';
+    font-weight: 300px;
+    font-size: 50px; 
+    
+}
+#lorem2{
+
+
+
+font-style: normal;
+font-size: 20px;
+
+color: #FFFFFF;
+text-align: left;
+
+}
+.images1{
+position: absolute;
+left: 790px;
+top: 198px;
+border-radius: 30px;
+}
+.images2{
+box-sizing: border-box;
+position: absolute;
+left: 916px;
+top: 286px;
+border: 14px solid #FFFFFF;
+border-radius: 37px;
+}
+/* _______________________________________________________ */
+.contact{
+    font-size: xx-large;
+    padding-top: 140px;  
+    
+    margin-top: 70px;
+  
+    
+
+}
+#con{
+
+    padding: 64px;
+    padding-left: 220px;
+}
+#nemo{
+    padding: 30px 110px 70px 110px;
+    width: 500px;
+    height: 200px;
+    font-size: small;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+.form{
+         /* background-color: ; */
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        background-color: #f8f9fd;
+        padding: 50px;
+        margin-right: 100px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+}
+
+.form label,input,textarea{
+   width: 400px;
+   box-sizing: border-box;
+   font-size: 16px;
+   
+}
+
+.form input,textarea{
+    border: 2px solid #e99c2e; 
+    border-radius: 10px;
+    
+}
+.form input{
+    height: 60px;
+}
+.form label{
+    text-indent: 18px;
+    color: #000000;
+    font-size: large;
+
+}
+.buttonform{
+    background-color: #e99c2e;
+    color: white;
+    padding: 15px 32px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    stroke: none;
+
+
+
+}
+.buttonform:hover {
+    background-color: white;
+    color: #FF8D25;
+    border: 2px solid #EEEDEA; /* Green */
+  }
+/* _________________________________________________________________________ */
+.card{
+    width: 300px;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 100px;
+    padding : 30px;
+    background-color: white;
+    border-radius: 30px;
+    color: #000000;
+    display: flex;
+    width: 400px;
+}
+.plus{
+    background-color: black;
+    width: 50px;
+    padding-left: 5px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+   
+}
+#content1{
+
+padding-left: 10px;
+
+padding-top: 5px;
+
+font-weight:bolder;
+
+
+}
+
+.fixbug{
+  display: flex;
+  flex-direction: column;
+
+}
+#prob{
+    
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: 'Italianno', cursive;
+
+
+}
+.plusminus{
+    padding-left: 20px;
+}
