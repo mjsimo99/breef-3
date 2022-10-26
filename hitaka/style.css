@@ -203,7 +203,7 @@ footer {
     
     width: 483.2px;
     padding-top: 4%;
-    margin-right: 5%;
+    margin-right: 2%;
 
 }
 
@@ -226,7 +226,7 @@ footer {
 #lorem2{
 
 
-width: 483.2px;
+width: auto;
 font-style: normal;
 font-size: 20px;
 color: #FFFFFF;
@@ -280,7 +280,7 @@ border-radius: 30px;
         display: flex;
         flex-direction: column;
         border-radius: 25px;
-        background-color: #f8f9fd;
+        background-color: white;
         padding: 50px;
         margin-top: 50px;
         margin-bottom: 60px;
@@ -316,6 +316,7 @@ border-radius: 30px;
     font-size: 16px;
     border-radius: 10px;
     stroke: none;
+    cursor: pointer;
 
 
 
@@ -326,11 +327,21 @@ border-radius: 30px;
     border: 2px solid #EEEDEA; /* Green */
   }
 /* _________________________________________________________________________ */
+.mother{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+
+}
+.cards{
+    margin-right: 8%;
+
+}
 .card{
-    width: 300px;
-    margin-left: 200px;
-    margin-right: auto;
-    margin-top: 100px;
     padding : 30px;
     background-color: white;
     border-radius: 30px;
@@ -372,5 +383,78 @@ font-weight:bolder;
 
 }
 .plusminus{
-    padding-left: 20px;
+    margin-left: 3%;
 }
+.pay{
+    background-color: #e99c2e;
+    padding: 210px 190PX;
+    border-radius: 10px;
+}
+.Card-Details{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin-bottom: 60px;
+    color: #000000;
+    
+}
+.buttonpay{
+    background-color: #FF8D25;
+    color: white;
+    padding: 15px 32px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    stroke: none;
+    cursor: pointer;
+    
+}
+.buttonpay:hover{
+    background-color: white;
+    color: #FF8D25;
+    border: 2px solid #EEEDEA; /* Green */
+}
+.Card-Details label,input{
+    width: 350px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+ }
+ .Card-Details input,textarea{
+    border: 2px solid #e99c2e; 
+    border-radius: 10px;
+ }
+.Card-Details label,input{
+    height: 40px;
+}
+
+.same-line input{
+    
+    width: 170px;  
+  
+    
+
+}
+.same-line{
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 3%;
+    
+
+
+}
+
+.Card-Details label{
+    width: auto;
+    height: 17.6px;
+    margin-bottom: 15px;
+
+}
+@media only screen and (max-width: 992px) {
+   .card{margin-left:3%;
+    margin-right: auto;
+}
+  }
