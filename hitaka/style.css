@@ -92,7 +92,20 @@ font-size: 35px;
 }
 .line{
     margin-bottom: 90px;
+    
 }
+@media only screen and (max-width: 992px) {
+    .line{
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        margin-right: 90px;
+        margin-left: 100px; 
+    }
+    .btnabout{
+        margin-left: 20px;
+    }
+  }
 .svg{
     display: flex;   
     justify-content: center;   
@@ -112,7 +125,10 @@ h2{
 }
 .mini-galerie{
     margin: 30px 50px;
+    background-color: #FF8D25;
+
 }
+
 
 .Italianno{
 font-family: 'Italianno', cursive;
@@ -122,19 +138,31 @@ font-family: 'Italianno', cursive;
 .getapp{
     
    padding: 2rem;
-   padding-top: 5rem;
+   padding-top: 4rem;
    
     background-color: black;
-    height: 192px;
+    height: 254px;
     color: white;
     border: 1px solid;
-    margin-left: 50px;
+    
+    width: 483.2px;
+    margin-bottom: 40px;
 }
-.app{
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   justify-content: space-around;
 
+.app{
+   display: flex;
+   justify-content: center;
+   margin-left:   auto ;
+    margin-right: auto;
+
+   flex-wrap: wrap; 
+
+}
+.text-muted{
+    margin-bottom: 10px;
+}
+.font-weight{
+    margin-bottom: 10px;
 }
 hr{
     margin-bottom: 50px
@@ -148,21 +176,39 @@ footer {
 #title{
     margin-bottom: 50px;
 }
-/* ________________________________________________________________________________ */
-.aboutus{
-    margin-top: 100px;
-    margin-left: 70px;
-    margin-right: 800px;
-    padding: 30px;
-    margin-bottom: 200px;
-
-
-    
-    
+@media only screen and (max-width: 992px) {
+    .getapp{
+        margin-left: 0px;
+        
+    }
+  }
+/* ____  _________________________________________________________________________  */
+#abus{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Kumbh Sans';
 }
+.aboutus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 141px;
+
+
+}
+.allone{
+    
+    width: 483.2px;
+    padding-top: 4%;
+    margin-right: 5%;
+
+}
+
 #explore{
-    margin-top: 0px;
-    margin-bottom: 0px;
+
     font-family: 'Italianno', cursive;
     font-weight: 400;
     font-size: 40px;
@@ -170,62 +216,63 @@ footer {
 
 }
 #Nothing{
-    margin-top: 10px;
     text-align: left;
     font-family: 'Kumbh Sans';
-    font-weight: 300px;
-    font-size: 50px; 
+    font-weight: 300;
+    font-size: 30px; 
+    
     
 }
 #lorem2{
 
 
-
+width: 483.2px;
 font-style: normal;
 font-size: 20px;
-
 color: #FFFFFF;
-text-align: left;
+margin-bottom: 5%;
 
 }
 .images1{
-position: absolute;
-left: 790px;
-top: 198px;
 border-radius: 30px;
 }
-.images2{
-box-sizing: border-box;
-position: absolute;
-left: 916px;
-top: 286px;
-border: 14px solid #FFFFFF;
-border-radius: 37px;
-}
+
 /* _______________________________________________________ */
+.parentform{
+    margin-left: auto;
+    margin-right: auto;
+}
 .contact{
     font-size: xx-large;
     padding-top: 140px;  
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 8%;
     
-    margin-top: 70px;
+    
+
   
     
 
 }
 #con{
 
-    padding: 64px;
-    padding-left: 220px;
+    width: 482px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #nemo{
-    padding: 30px 110px 70px 110px;
-    width: 500px;
-    height: 200px;
+    width: 400px;
+    height: 100px;
     font-size: small;
+    margin-right: 5%;
+    text-align: left;
+    margin-top: 10%;
 }
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
     
   }
 .form{
@@ -235,7 +282,6 @@ border-radius: 37px;
         border-radius: 25px;
         background-color: #f8f9fd;
         padding: 50px;
-        margin-right: 100px;
         margin-top: 50px;
         margin-bottom: 60px;
 }
