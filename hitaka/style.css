@@ -458,3 +458,6 @@ font-weight:bolder;
     margin-right: auto;
 }
   }
+svg{
+    cursor: pointer;
+}
