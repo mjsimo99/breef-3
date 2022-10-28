@@ -173,6 +173,8 @@ footer {
     background-color: #FF8D25;
     color: white;
     text-align: center;
+ 
+    /* height: calc(50vh - 194px); */
   }
 
 #title{
@@ -395,6 +397,8 @@ font-weight:bolder;
 }
 .payment{
     visibility: hidden;
+  
+
     
 }
 .Card-Details{
@@ -465,9 +469,18 @@ font-weight:bolder;
 
 }
 @media only screen and (max-width: 992px) {
-   .card{margin-left:3%;
+   .card{
+    width: 90%;
+    margin-left: auto;
     margin-right: auto;
+    height: auto;
  
+}
+.plus{
+    background: none;
+}
+#prob{
+    display: none;
 }
     .allone{
     
@@ -484,6 +497,10 @@ font-weight:bolder;
     }
     #Nothing{
         text-align: center;
+    }
+    #content1{
+        font-size: 85%;
+        margin-top: 2%;
     }
   }
 svg{
@@ -582,8 +599,20 @@ color:white ;
     color: #FF8D25;
 }
 #card-first{
-    margin-top: 94px;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
 }
+/* ____________________ */
+@media only screen and (max-width: 992px) {
+   .Card-Details input{
+    width: 90%;
+   }
+   .Card-Details{
+    margin-left: 90%;
+    margin-right: 90%;
+   }
+   #card-first{
+
+    width: 90%;
+}
+  }
