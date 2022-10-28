@@ -300,10 +300,14 @@ border-radius: 30px;
 .form input,textarea{
     border: 2px solid #e99c2e; 
     border-radius: 10px;
+    text-indent: 15px;
+
     
 }
 .form input{
     height: 60px;
+
+    
 }
 .form label{
     text-indent: 18px;
@@ -342,7 +346,7 @@ border-radius: 30px;
 
 }
 .cards{
-    margin-right: 8%;
+    margin-right: 5%;
 
 }
 .card{
@@ -389,10 +393,9 @@ font-weight:bolder;
 .plusminus{
     margin-left: 3%;
 }
-.pay{
-    background-color: #e99c2e;
-    padding: 210px 190PX;
-    border-radius: 10px;
+.payment{
+    visibility: hidden;
+    
 }
 .Card-Details{
     display: flex;
@@ -433,6 +436,10 @@ font-weight:bolder;
  }
 .Card-Details label,input{
     height: 40px;
+}
+.Card-Details input{
+    text-indent: 15px;
+
 }
 
 .same-line input{
@@ -551,4 +558,32 @@ color:white ;
     }
 
    
+}
+/* ___________________________________________________________ */
+
+.numbershop{
+    width: 30px;
+    margin-left: 24%;
+    margin-top: 11%;
+    border: 2px solid #FF8D25;
+    border-radius: 10px;
+    text-align: center;
+ 
+}
+/* __________________________________________________________________ */
+.payment.shadow{
+    visibility: visible;
+}
+.menus-proposés{
+    text-align: center;
+    margin-bottom: revert;
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+    color: #FF8D25;
+}
+#card-first{
+    margin-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
