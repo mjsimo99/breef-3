@@ -593,7 +593,6 @@ color:white ;
 }
 .menus-proposés{
     text-align: center;
-    margin-bottom: revert;
     font-family: 'Italianno', cursive;
     font-size: 60px;
     color: #FF8D25;
@@ -604,15 +603,31 @@ color:white ;
 }
 /* ____________________ */
 @media only screen and (max-width: 992px) {
-   .Card-Details input{
+.Card-Details input{
     width: 90%;
-   }
-   .Card-Details{
+}
+.Card-Details{
     margin-left: 90%;
     margin-right: 90%;
-   }
-   #card-first{
+}
+#card-first{
 
     width: 90%;
 }
-  }
+}
+/* __________________________________ */
+.inline{
+    text-align: center;
+}
+.inlineA{
+    padding: 10px;
+    margin-left: 3%;
+    border: 2px solid #e99c2e;
+    border-radius: 10px;
+}
+#menu1{
+
+}
+#menu2{
+
+}
