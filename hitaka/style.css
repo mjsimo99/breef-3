@@ -349,6 +349,7 @@ border-radius: 30px;
 }
 .cards{
     margin-right: 5%;
+    flex-direction: column;
 
 }
 .card{
@@ -625,9 +626,16 @@ color:white ;
     border: 2px solid #e99c2e;
     border-radius: 10px;
 }
-#menu1{
-
+.cart{
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+    border: 1px solid white;
+    overflow-y: scroll;
+    height: 100%;
+    background-color: #EEEDEA;
 }
-#menu2{
-
+/* __________________________ */
+.cartImg{
+    width: 200px;
 }

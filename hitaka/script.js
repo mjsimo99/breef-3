@@ -15,6 +15,7 @@ for (var i = 0; i < shop.length; i++) {
         var thirdd = secendd.parentElement.parentElement.parentElement.parentElement.parentElement.children[3].classList.toggle("shadow");
         console.log(thirdd);
 
+
     })
 }
 
@@ -46,5 +47,45 @@ for (var i = 0; i < btnBuyMinus.length; i++) {
 
     })
 }
-// __________________
+//if chose one hide other __________________
+document.querySelector(".A1").addEventListener("click", function () {
+    document.querySelector("body > div.mother > div.card1 ").style.display = "flex";
+    document.querySelector("body > div.mother > div.card2 ").style.display = "none";
+    document.querySelector("body > div.mother > div.card3 ").style.display = "none";
+})
+document.querySelector(".A2").addEventListener("click", function () {
+    document.querySelector("body > div.mother > div.card1 ").style.display = "none";
+    document.querySelector("body > div.mother > div.card2 ").style.display = "flex";
+    document.querySelector("body > div.mother > div.card3 ").style.display = "none";
+})
+document.querySelector(".A3").addEventListener("click", function () {
+    document.querySelector("body > div.mother > div.card1 ").style.display = "none";
+    document.querySelector("body > div.mother > div.card2 ").style.display = "none";
+    document.querySelector("body > div.mother > div.card3 ").style.display = "flex";
+})
+// for show all
+document.querySelector(".A4").addEventListener("click", function () {
+    document.querySelector("body > div.mother > div.card1 ").style.display = "flex";
+    document.querySelector("body > div.mother > div.card2 ").style.display = "flex";
+    document.querySelector("body > div.mother > div.card3 ").style.display = "flex";
+})
+// add cart
+// var addItemId = 0
+// function addToCart(item) {
+//     var selectedItem = document.createComment('div');
+//     selectedItem.classList.add('cartImg');
+//     console.log(selectedItem)
+//     selectedItem.setAttribute('id', addItemId);
+//     var img = document.createElement('img');
+//     img.setAttribute('src', item.parentElement.parentElement.parentElement.parentElement.children[0].children[0].currentSrc);
+//     console.log(amine);
+
+//     var cartItem = document.getElementById('title');
+//     selectedItem.append(img);
+//     cartItem.append(selectedItem);
+
+// }
+
+
+
 
