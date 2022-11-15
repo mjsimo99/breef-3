@@ -14,11 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@800&display=swap"
       rel="stylesheet"
     />
-    <style>
-      input::-webkit-outer-spin-button,
-      input::-webkit-inner-spin-button {
-        display: none;
-      }
+
     </style>
   </head>
   <body>
@@ -37,6 +33,8 @@
               <li><a href="card.html">Card</a></li>
               <li><a href="AboutUs.html">About Us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
+              <!-- <i class="fa fa-shopping-cart" style="color:white ;"></i> -->
+
             </ul>
           </div>
         </nav>
@@ -52,1315 +50,316 @@
 
     </div>
     <!-- _____________________________________________________________________ -->
-
+  <div class="grandM">
     <div class="mother">
       
       <div class="cards card1">
-
-        <div class="card"  id="item1">
-          <div class="plus">
-            <img class="image1"
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
+        <div class="container2">
+          <div class="articles">
+              <div>
+                  <img class="imagecard" src="../images/Vegetable.jpg">
+                  <div class="prod">
+                      <h3 class="tit" id="brand1">Vegetable Salad</h3>
+                      <h4 id="price1">5.10</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity1" name="quantity1" min="1" max="99" value="1">
+                      <select id="size1" name="size1" onclick="deleteE('message1')">
+                          <option value="size" disabled selected>Size</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(1)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message1"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/sashimi-salad.jpg" height="58%">
+                  <div class="prod">
+                      <h3 class="tit" id="brand2">Sashimi Salad</h3>
+                      <h4 id="price2">6.90</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity2" name="quantity2" min="1" max="99" value="1">
+                      <select id="size2" name="size2" onclick="deleteE('message2')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(2)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message2"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/macaroni.jpg">
+                  <div class="prod">
+                      <h3 class="tit" id="brand3">Macaroni Salad</h3>
+                      <h4 id="price3">3.70</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity3" name="quantity3" min="1" max="99" value="1">
+                      <select id="size3" name="size3" onclick="deleteE('message3')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(3)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message3"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/Japanese-potato.jpg">
+                  <div class="prod">
+                      <h3 class="tit" id="brand4">Japanese Potato</h3>
+                      <h4 id="price4">2.10</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity4" name="quantity4" min="1" max="99" value="1">
+                      <select id="size4" name="size4" onclick="deleteE('message4')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(4)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message4"></p>
+              </div>
           </div>
-          <div class="fixbug">
-            <h6 id="content1">bac n3alam lowal</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item1)">
-              
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item2" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item2)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item3" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item3)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item4" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item4)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item5" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item5)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
+          
       </div>
+      </div>
+
       <!-- _____________________________________________________________________ -->
       <div class="cards card2">
-
-        <div class="card" id="item6">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">tani</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item6)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item7" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item7)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item8" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item8)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item9" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item9)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item10" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item10)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
+        <div class="container2">
+          <div class="articles">
+              <div>
+                  <img class="imagecard" src="../images/azuchi.jpg">
+                  <div class="prod">
+                      <h3 class="tit" id="brand5">Pothichoru</h3>
+                      <h4 id="price5">10.00</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity5" name="quantity5" min="1" max="99" value="1">
+                      <select id="size5" name="size5" onclick="deleteE('message5')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(5)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message5"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/bento.jpg" height="55%">
+                  <div class="prod">
+                      <h3 class="tit" id="brand6">Bento</h3>
+                      <h4 id="price6">15.40</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity6" name="quantity6" min="1" max="99" value="1">
+                      <select id="size6" name="size6" onclick="deleteE('message6')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(6)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message6"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/moch.jpg" height="55%">
+                  <div class="prod">
+                      <h3 class="tit" id="brand7">LunchCat</h3>
+                      <h4 id="price7">20.00</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity7" name="quantity7" min="1" max="99" value="1">
+                      <select id="size7" name="size7" onclick="deleteE('message7')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(7)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message7"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/l-intro-1658191664.jpg" height="55%">
+                  <div class="prod">
+                      <h3 class="tit" id="brand8">Japonito</h3>
+                      <h4 id="price8">18.90</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity8" name="quantity8" min="1" max="99" value="1">
+                      <select id="size8" name="size8" onclick="deleteE('message8')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(8)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message8"></p>
+              </div>
           </div>
         </div>
       </div>
+      
+
+
       <!-- _____________________________________________________________________ -->
       <div class="cards card3">
-
-        <div class="card" id="item11">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
+        <div class="container2">
+          <div class="articles">
+              <div>
+                  <img class="imagecard" src="../images/japan-feat.jpg">
+                  <div class="prod">
+                      <h3 class="tit" id="brand9">Japan Feat</h3>
+                      <h4 id="price9">30.50</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity9" name="quantity9" min="1" max="99" value="1">
+                      <select id="size9" name="size9" onclick="deleteE('message9')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(9)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message9"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/sushi-japon.jpg">
+                  <div class="prod">
+                      <h3 class="tit" id="brand10">Plat Sushi</h3>
+                      <h4 id="price10">30.00</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity10" name="quantity10" min="1" max="99" value="1">
+                      <select id="size10" name="size10" onclick="deleteE('message10')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(10)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message10"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/Sushi.jpg" height="60%">
+                  <div class="prod">
+                      <h3 class="tit" id="brand11">Sushi Modern</h3>
+                      <h4 id="price11">25.30</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity11" name="quantity11" min="1" max="99" value="1">
+                      <select id="size11" name="size11" onclick="deleteE('message11')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(11)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message11"></p>
+              </div>
+              <div>
+                  <img class="imagecard" src="../images/cuisine.jpg">
+                  <div class="prod">
+                      <h3 class="tit" id="brand12">Classic Plat</h3>
+                      <h4 id="price12">13.90</h4>
+                      <h4>$</h4>
+                  </div>
+                  <div class="inputs">
+                      <input class="inp" type="number" id="quantity12" name="quantity12" min="1" max="99" value="1">
+                      <select id="size12" name="size12" onclick="deleteE('message12')">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                      </select>
+                      <div>
+                          <button class="addTo" onclick="add(12)">Add</button>
+                      </div>
+                  </div>
+                  <p id="message12"></p>
+              </div>
           </div>
-          <div class="fixbug">
-            <h6 id="content1">talat</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item11)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item12" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item12)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item13" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item13)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item14" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item14)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="item15" style="margin-top: 50px">
-          <div class="plus">
-            <img
-              src="../images/chwa.jpg"
-              alt="chwa"
-              width="40px"
-              style="padding-top: 2px"
-            />
-          </div>
-          <div class="fixbug">
-            <h6 id="content1">Hot Grilled Chicken Breast</h6>
-            <p id="prob">with pecan ‘épicé’ & passe crassane pear</p>
-          </div>
-          <div class="plusminus">
-            <div class="buyplus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M12 8v8"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-
-            <div class="buyminus">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                <path d="M8 12h8"></path>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <input
-              type="number"
-              id="inpt-quantiti"
-              class="numbershop"
-              placeholder="1"
-              value="1"
-              name="numbershop"
-            />
-          </div>
-
-          <div>
-            <p style="padding-left: 15px; padding-bottom: 8px">$6.45</p>
-            <div class="shop" onclick="addToCart(item15)">
-              <svg
-                width="20"
-                height="20"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                style="margin-left: 45%; border: 3px solid"
-              >
-                <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M17 17H6V3H4"></path>
-                <path d="m6 5 14 1-1 7H6"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- _____________________________________________________________________ -->
-      <div class="payment">
-        <!-- <form class="pay"></form>
-      
-          <legend> Card Details</legend>
-          <label for=""></label>
-      
-      </form>  -->
-        <div class="Card-Details" id="card-first" style="margin-top: 94px">
-          <h3 style="text-align: center; padding-bottom: 9px">Card Details</h3>
-          <div class="same-line">
-            <div>
-              <label class="labelcard">Prix</label><br />
-              <p id="price">$0.00</p>
-            </div>
-            <div style="margin-left: 30%;">
-              <label class="labelcard">Tax</label><br />
-              <p id="tax">$3.00</p>
-              
-            </div>
-            <div style="margin-left:30% ;">
-            <label class="labelcard">Total Prix</label
-              ><p id="total_price">$3.00</p>
-            </div>
-          </div>
-  <hr>
           
-          <label class="labelcard">Card Number</label
-          ><input type="number" placeholder="1111 2222 3333 4444 5555" />
-          <div class="same-line">
-            <div>
-              <label class="labelcard">Expir Date</label><br /><input
-                type="number"
-                placeholder="10/2026"
-                style="margin-right: 7px"
-              />
-            </div>
-            <div>
-              <label class="labelcard">CCV</label><br /><input
-                type="number"
-                placeholder="123"
-              /><br />
-            </div>
-          </div>
-          <button class="buttonpay">Pay</button>
-        </div>
       </div>
-    </div>
+      </div>
+
+  
       <!-- _____________________________________________________________________ -->
-    <div class="cart" id="cart">
-      <div class="title">CART</div><hr/>
-      <div id="title"></div>
+      
     </div>
+
+
+      <!-- _____________________________________________________________________ -->
+      
+      <div class="cart">
+        <div class="articls articlesforcard" style="display:flex ;">
+        <h3 class="tit">My articles</h3>
+        <div class="shoping_card" style="text-align: right;">
+          <svg width="25" height="25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
+            <path d="M17 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
+            <path d="M17 17H6V3H4"></path>
+            <path d="m6 5 14 1-1 7H6"></path>
+          </svg>
+        </div></div>
+        <!-- list of the articles in the cart -->
+        <ul id="items">
+        </ul> 
+        
+        <h3 id="total" style="text-align: right;">Total: 0 $</h3>
+        
+    </div>
+  </div>
+     
 <!-- ____________________________________________________________________ -->
 
     <footer>
